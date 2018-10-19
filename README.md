@@ -12,4 +12,6 @@ Each LED has 3.3V coming from a GPIO pin in output mode to the anode (longer leg
 
 This means we need to reserve a GPIO pin for the moderator (black) plus, for each player, one input and one output.
 
-Using the diagrams at pinout.xyz worked really well for this.
++ Using the diagrams at [pinout.xyz](https://pinout.xyz) worked really well for this.
++ I also made heavy use of [this guide to LEDs and the Raspberry Pi](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins).
++ Finally, [this guide to pushbutton switches](https://raspberrypihq.com/use-a-push-button-with-raspberry-pi-gpio/) with the Raspberry Pi was helpful, though it didn't include the 'debounce' parameter (which was definitely neccesary).
