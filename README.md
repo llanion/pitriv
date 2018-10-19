@@ -1,4 +1,4 @@
-#Project 'piclick', a trivia-game buzz-in project driven by a Raspberry Pi
+# Project 'piclick', a trivia-game buzz-in project driven by a Raspberry Pi
 
 This is conceptually a really simple project to allow three players to 'buzz in' to answer trivia questions. There are four buttons (Blue, green, white, black) and three LEDs (blue, green, white). When any button except the black one is pressed, that player 'buzzes in'; a sound is played, that player's light illuminates, and other colors are locked out (and cannot buzz in). When the black button is pressed, the board is cleared; all lights are turned off and any player may buzz in.
 
